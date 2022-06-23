@@ -2,8 +2,8 @@
 	namespace App\Http\Strategies;
 
 	interface strategyInterface{
-		public function constructor(date $data, array $feriados);
+		public function constructor($data, $feriados);
 
-   		public function generator():string;
+   		public function generator();
 	}
 ?>
